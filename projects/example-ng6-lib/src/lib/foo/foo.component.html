@@ -1,0 +1,16 @@
+<h2>
+  AutoComplete:
+</h2>
+<form class="example-form">
+    <mat-form-field class="example-full-width">
+      <input type="text" placeholder="Assignee" aria-label="Assignee" matInput [formControl]="myControl" [matAutocomplete]="auto">
+      <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+        <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+          {{option.name}}
+        </mat-option>
+      </mat-autocomplete>
+      <button mat-button *ngIf="myControl.value" matSuffix mat-icon-button aria-label="Clear" (click)="myControl.setValue(0)">
+        <mat-icon>close</mat-icon>
+      </button>
+    </mat-form-field>
+</form>

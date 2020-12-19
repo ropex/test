@@ -1,0 +1,16 @@
+{
+  "name": "ng-fnst-jy",
+  "version": "1.2.0",
+  "description": "This is a simple example Angular Library published to npm.",
+  "keywords" :["Angular","Library"],
+  "license" : "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/123"
+  },
+  "homepage" :"https://medium.com/123",
+  "peerDependencies": {
+    "@angular/common": "~11.0.4",
+    "@angular/core": "~11.0.4"
+  }
+}
