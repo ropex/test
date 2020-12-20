@@ -1,6 +1,6 @@
 {
   "name": "ng-fnst-jy",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -28,7 +28,9 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
-    "ng-fnst-jy-1": "^1.2.0",
+    "@ionic/angular": "^5.5.2",
+    "ionic-angular": "^3.9.10",
+    "ng-fnst-jy-1": "^1.2.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"

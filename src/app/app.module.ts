@@ -8,6 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule,
 } from '@angular/material/tabs';
 
+import { IonicModule } from "@ionic/angular"
+
 @NgModule({
   declarations: [
     AppComponent
@@ -16,7 +18,8 @@ import { MatTabsModule,
     BrowserModule,
     ExampleNg6LibModule,
     BrowserAnimationsModule,
-    MatTabsModule
+    MatTabsModule,
+    IonicModule
   ],
   providers: [],
   bootstrap: [AppComponent]
