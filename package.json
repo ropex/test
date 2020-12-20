@@ -13,6 +13,7 @@
     "copy-readme": "copy .\\README.md .\\dist\\example-ng6-lib",
     "copy-files": "npm run copy-license && npm run copy-readme",
     "npm_pack": "cd dist/example-ng6-lib && npm pack",
+    "build:github": "ng build --prod --output-path docs --base-href /test/",
     "package": "npm run build_lib && npm run copy-files && npm run npm_pack"
   },
   "private": true,
@@ -27,6 +28,7 @@
     "@angular/platform-browser": "~11.0.4",
     "@angular/platform-browser-dynamic": "~11.0.4",
     "@angular/router": "~11.0.4",
+    "ng-fnst-jy-1": "^1.2.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
@@ -53,6 +55,13 @@
   },
   "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.",
   "main": "karma.conf.js",
-  "author": "",
-  "license": "ISC"
+  "author": "fnst",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ropex/test/tree/master"
+  },
+  "keywords": [
+    "angular"
+  ]
 }

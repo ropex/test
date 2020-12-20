@@ -1,14 +1,14 @@
 {
-  "name": "ng-fnst-jy",
-  "version": "1.2.0",
+  "name": "ng-fnst-jy-1",
+  "version": "1.2.1",
   "description": "This is a simple example Angular Library published to npm.",
   "keywords" :["Angular","Library"],
   "license" : "SEE LICENSE IN LICENSE",
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/123"
+    "url" : "https://github.com/ropex/test/tree/master"
   },
-  "homepage" :"https://medium.com/123",
+  "homepage" :"https://github.com/ropex/test/tree/master",
   "peerDependencies": {
     "@angular/common": "~11.0.4",
     "@angular/core": "~11.0.4"
